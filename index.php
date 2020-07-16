@@ -911,6 +911,21 @@ foreach ($sub_questions as $key => $val) {
 
 //	var_dump($val['sub_question']);
 $sxt=str_replace("QR code","{".$synonyms[0]."}",$val);
+$sxt=str_replace("bank account","{".$synonyms[1]."}",$sxt);
+$sxt=str_replace("net banking","{".$synonyms[2]."}",$sxt);
+$sxt=str_replace("online banking","{".$synonyms[3]."}",$sxt);
+$sxt=str_replace("internet banking","{".$synonyms[4]."}",$sxt);
+$sxt=str_replace("netbanking","{".$synonyms[5]."}",$sxt);
+$sxt=str_replace("fastag","{".$synonyms[6]."}",$sxt);
+$sxt=str_replace("fas tag","{".$synonyms[7]."}",$sxt);
+$sxt=str_replace("fednet","{".$synonyms[8]."}",$sxt);
+$sxt=str_replace("fed net","{".$synonyms[9]."}",$sxt);
+$sxt=str_replace("reward points","{".$synonyms[10]."}",$sxt);
+$sxt=str_replace("debit card","{".$synonyms[11]."}",$sxt);
+$sxt=str_replace("3d password","{".$synonyms[12]."}",$sxt);
+$sxt=str_replace("otp","{".$synonyms[13]."}",$sxt);
+$sxt=str_replace("credit card","{".$synonyms[14]."}",$sxt);
+
 // 	for($i=0;$i<=$count;$i++){
 // 		$id = array_search('QR code', array_column( $val, 'QR code')); 
 // echo $id; 
